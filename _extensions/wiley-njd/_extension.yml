@@ -9,6 +9,8 @@ contributes:
       filters:
         - wiley-njd.lua
     pdf:
+      documentclass: WileyNJDv5
+      classoption: [AMA, Times1COL]
       template: wiley-njd-template.tex
       format-resources:
         - wiley-njd-v5/WileyNJDv5.cls
