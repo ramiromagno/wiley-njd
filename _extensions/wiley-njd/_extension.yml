@@ -10,6 +10,9 @@ contributes:
         - wiley-njd.lua
     pdf:
       template: wiley-njd-template.tex
+      format-resources:
+        - wiley-njd-v5/WileyNJDv5.cls
+        - wiley-njd-v5/LETTERSP.STY
     html:
       css: styles.css
 

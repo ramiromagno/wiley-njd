@@ -1,2 +1,5 @@
 template.tex
 template.pdf
+*.sty
+*.STY
+*.cls
