@@ -12,14 +12,26 @@ contributes:
       documentclass: WileyNJDv5
       classoption: [AMA, Times1COL]
       template: wiley-njd-template.tex
+      cite-method: natbib
       article-type: ""
       present-address: ""
       abbreviations-note: ""
       template-partials:
         - "partials/title.tex"
+        - "partials/biblio.tex"
       format-resources:
         - wiley-njd-v5/WileyNJDv5.cls
         - wiley-njd-v5/LETTERSP.STY
+        - wiley-njd-v5/wileyNJD-AMA.bst
+        - wiley-njd-v5/wileyNJD-AMS.bst
+        - wiley-njd-v5/wileyNJD-APA.bst
+        - wiley-njd-v5/wileyNJD-APS.bst
+        - wiley-njd-v5/wileyNJD-Chicago.bst
+        - wiley-njd-v5/wileyNJD-Harvard.bst
+        - wiley-njd-v5/wileyNJD-MLA.bst
+        - wiley-njd-v5/wileyNJD-MPS.bst
+        - wiley-njd-v5/wileyNJD-Vancouver.bst
+        - wiley-njd-v5/wileyNJD-WCMS.bst
     html:
       css: styles.css
 

@@ -4,6 +4,7 @@ format:
   wiley-njd-pdf:
     keep-tex: true
     article-type: "Article Type"
+    classoption: [AMA, Times1COL]
   wiley-njd-html: default
 author:
   - name: Mark Taylor
@@ -40,11 +41,37 @@ abstract: |
   text with your abstract. This is sample abstract text just for the template display purpose.
 keywords: [keyword1, keyword2, keyword3, keyword4]
 abbreviations-note: "ANA, anti-nuclear antibodies; APC, antigen-presenting cells; IRF, interferon regulatory factor."
-bibliography: bibliography.bib
+bibliography: wileyNJD-AMA
 ---
 
-# Introduction {#sec-intro}
+# First level head {#sec1}
 
-*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+Please lay out your article using the section headings and the given body text
+is dummy text for layout purpose. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit \cite{Hirt1974}. Ut purus elit, vestibulum ut, placerat ac,
+adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero,
+nonummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu
+neque. Pellentesque habitant morbi tristique senectus et netus et malesuada
+fames ac turpis egestas. Mauris ut leo. Cras viverra metus rhoncus sem. Nulla et
+lectus vestibulum urna fringilla ultrices. Phasellus eu tellus sit amet tortor
+gravida placerat. Integer sapien est, iaculis in, pretium quis, viverra ac,
+nunc. Praesent eget sem vel leo ultrices bibendum. Aenean faucibus. Morbi dolor
+nulla, malesuada eu, pulvinar at, mollis ac, nulla. Curabitur auctor semper
+nulla. Donec varius orci eget risus. Duis nibh mi, congue eu, accumsan eleifend,
+sagittis quis, diam. Duis eget orci sit amet orci dignissim rutrum.
 
+\section{Another first level head}\label{sec2}
+
+Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at,
+tincidunt tristique, libero. Vivamus viverra fermentum felis. Donec nonummy
+pellentesque ante. Phasellus adipiscing semper elit. Proin fermentum massa ac
+quam. Sed diam turpis, molestie vitae, placerat a, molestie nec, leo
+\cite{Liska2010}. Maecenas lacinia. Nam ipsum ligula, eleifend at, accumsan nec,
+suscipit a, ipsum. Morbi blandit ligula feugiat magna. Nunc eleifend consequat
+lorem. Sed lacinia nulla vitae enim. Pellentesque tincidunt purus vel magna.
+Integer non enim. Praesent euismod nunc eu purus. Donec bibendum quam in tellus.
+Nullam cursus pulvinar lectus. Donec et mi. Nam vulputate metus eu enim.
+Vestibulum pellentesque felis eu massa. Example for bibliography citation
+\cite{Taylor1937}, text \cite{Knupp1999,Kamm2000} inserted in text for your
+reference.
 
