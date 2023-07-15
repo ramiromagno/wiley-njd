@@ -3,3 +3,5 @@ template.pdf
 *.sty
 *.STY
 *.cls
+!_extensions/wiley-njd/wiley-njd-v5/WileyNJDv5.cls
+!_extensions/wiley-njd/wiley-njd-v5/LETTERSP.STY

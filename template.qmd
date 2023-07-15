@@ -1,32 +1,49 @@
 ---
-title: Wiley's New Journal Design (NJD) Latex Authoring Template
+title: Please insert your article title here
 format:
   wiley-njd-pdf:
-    keep-tex: true  
+    keep-tex: true
+    article-type: "Article Type"
   wiley-njd-html: default
 author:
-  - name: Sarah Malloc
+  - name: Mark Taylor
+    corresponding: true
     affiliations:
-      - name: An Organization
-        department: The Department
-        address: 1 Main St
-        city: Boston
-        country: USA
-        postal-code: 02210-1022
-      - A second affilication
-    orcid: 0000-0000-0000-0000
-    email: sm@example.org
-    url: https://example.org/
-  - name: Eliza Dealloc
+      - name: Institution Name 1
+        department: Department Name 1
+        city: State Name 1
+        country: Country Name 1
+    email: authorone@gmail.com
+  - name: Author Two
     affiliations:
-      - Another Affiliation
+      - name: Institution Name 2
+        department: Department Name 2
+        city: State Name 2
+        country: Country Name 2
+      - name: Institution Name 3
+        department: Department Name 3
+        city: State Name 3
+        country: Country Name 3
+  - name: Author Three
+    affiliations:
+      - name: Institution Name 3
+        department: Department Name 3
+        city: State Name 3
+        country: Country Name 3
+present-address: "This is sample for present address text this is sample for present address text."
 abstract: |
-  This document is a template demonstrating the Wiley-njd format.
-keywords: [template, demo]
-bibliography: bibliography.bib  
+  This is a generic template designed for use by multiple journals,
+  which includes several options for customization. Please
+  refer the author guidelines and author LaTeX manuscript preparation document for the journal to which you
+  are submitting in order to confirm that your manuscript will
+  comply with the journal’s requirements. Please replace this
+  text with your abstract. This is sample abstract text just for the template display purpose.
+keywords: [keyword1, keyword2, keyword3, keyword4]
+abbreviations-note: "ANA, anti-nuclear antibodies; APC, antigen-presenting cells; IRF, interferon regulatory factor."
+bibliography: bibliography.bib
 ---
 
-## Introduction {#sec-intro}
+# Introduction {#sec-intro}
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 

@@ -16,7 +16,25 @@ $endif$
 $pandoc.tex()$
 %% PANDOC PREAMBLE ENDS
 
+\articletype{$article-type$}%
+
+\received{Date Month Year}
+\revised{Date Month Year}
+\accepted{Date Month Year}
+\journal{Journal}
+\volume{00}
+\copyyear{2023}
+\startpage{1}
+
+\raggedbottom
 \begin{document}
+
+$title.tex()$
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
 
 $body$
 
