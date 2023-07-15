@@ -14,6 +14,13 @@ contributes:
       template: wiley-njd-template.tex
       cite-method: natbib
       article-type: ""
+      author-mark: ""
+      received: "Date Month Year"
+      revised: "Date Month Year"
+      accepted: "Date Month Year"
+      journal: ""
+      volume: "00"
+      copy-year: "2023"
       present-address: ""
       abbreviations-note: ""
       template-partials:
