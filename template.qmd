@@ -111,11 +111,12 @@ auctor, pede lorem egestas dui, et convallis elit erat sed nulla. Donec luctus.
 Curabitur et nunc. Aliquam dolor odio, commodo pretium, ultricies non, pharetra
 in, velit. Integer arcu est, nonummy in, fermentum faucibus, egestas vel, odio.
 
+```{=latex}
 \begin{align*}
 s(nT_{s}) &= s(t)\times \sum\limits_{n=0}^{N-1} \delta (t-nT_{s}) \xleftrightarrow{\mathrm{DFT}}  S \left(\frac{m}{NT_{s}}\right) \nonumber\\[3pt]
 &= \frac{1}{N} \sum\limits_{n=0}^{N-1} \sum\limits_{k=-N/2}^{N/2-1} s_{k} e^{\mathrm{j}2\pi k\Delta fnT_{s}} e^{-j\frac{2\pi}{N}mn}
 \end{align*}
-
+```
 
 Sed commodo posuere pede. Mauris ut est. Ut quis purus. Sed ac odio. Sed
 vehicula hendrerit sem. Duis non odio. Morbi ut dui. Sed accumsan risus eget

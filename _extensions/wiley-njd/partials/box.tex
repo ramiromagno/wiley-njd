@@ -1,0 +1,25 @@
+% Redefinition of the original class boxes to make them work
+% well with divs in quarto (qmd).
+
+\renewenvironment{boxtext}{%
+  \fboxsep12pt
+  \fboxrule2pt
+  \vskip12pt
+  \begin{breakbox}
+  \noindent\ignorespaces
+}{%
+  \end{breakbox}
+  \vskip12pt
+}
+
+\renewenvironment{boxwithhead}[1]{%
+  \fboxsep12pt
+  \fboxrule2pt
+  \vskip12pt
+  \begin{breakbox}
+  \noindent{\fontsize{10}{13}\selectfont\bfseries{{#1}}} \vskip0pt
+  \noindent\ignorespaces
+}{
+  \end{breakbox}
+  \vskip12pt
+}

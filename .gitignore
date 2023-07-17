@@ -1,7 +1,16 @@
 template.tex
+template.md
 template.pdf
+template.ipynb
+template.pag
 *.sty
 *.STY
 *.cls
+*.bst
+_extensions/wiley-njd/wiley-njd-v5/*
 !_extensions/wiley-njd/wiley-njd-v5/WileyNJDv5.cls
 !_extensions/wiley-njd/wiley-njd-v5/LETTERSP.STY
+!_extensions/wiley-njd/wiley-njd-v5/NJDapacite.sty
+!_extensions/wiley-njd/wiley-njd-v5/NJDnatbib.sty
+!_extensions/wiley-njd/wiley-njd-v5/*.bst
+

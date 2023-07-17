@@ -21,6 +21,9 @@ contributes:
       accepted: "Date Month Year"
       journal: ""
       volume: "00"
+      issue: "00"
+      pages: "1--18"
+      year: 2023
       copy-year: 2023
       present-address: ""
       abbreviations-note: ""
@@ -43,7 +46,5 @@ contributes:
         - wiley-njd-v5/wileyNJD-MPS.bst
         - wiley-njd-v5/wileyNJD-Vancouver.bst
         - wiley-njd-v5/wileyNJD-WCMS.bst
-    html:
-      css: styles.css
 
 

@@ -42,6 +42,11 @@ $if(keywords)$
 }
 $endif$
 
+$-- JNL citation
+\jnlcitation{\cname{%
+$for(by-author)$\author{$by-author.name.literal$}$sep$, $endfor$}.
+\ctitle{$title$.} \cjournal{\it $journal$} \cvol{$year$;$volume$($issue$):$pages$}.}
+
 $if(abbreviations-note)$
 \renewcommand\thefootnote{}
 \footnotetext{\textbf{Abbreviations:} $abbreviations-note$}
