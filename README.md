@@ -1,6 +1,8 @@
-# Wiley’s New Journal Design (NJD) Latex Authoring Template
 
-## Wiley’s New Journal Design (NJD)
+# Wiley’s New Journal Design (NJD) <img src="gfx/quarto.svg" align="right" height=100/>
+
+[![](https://img.shields.io/badge/quarto%20extension-journal%20format-75aadb.png)](https://quarto.org/docs/journals/formats.html)
+[![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
 This Quarto format will help you create documents for journals published
 by Wiley. For more about producing LaTeX output for Wiley journals, see
