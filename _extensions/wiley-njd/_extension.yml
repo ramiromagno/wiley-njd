@@ -15,20 +15,24 @@ contributes:
       cite-method: natbib
       article-type: ""
       author-mark: ""
+      title-mark: "PLEASE INSERT YOUR ARTICLE TITLE HERE"
       received: "Date Month Year"
       revised: "Date Month Year"
       accepted: "Date Month Year"
       journal: ""
       volume: "00"
-      copy-year: "2023"
+      copy-year: 2023
       present-address: ""
       abbreviations-note: ""
       template-partials:
+        - "partials/preamble.tex"
+        - "partials/box.tex"
         - "partials/title.tex"
-        - "partials/biblio.tex"
       format-resources:
         - wiley-njd-v5/WileyNJDv5.cls
         - wiley-njd-v5/LETTERSP.STY
+        - wiley-njd-v5/NJDapacite.sty
+        - wiley-njd-v5/NJDnatbib.sty
         - wiley-njd-v5/wileyNJD-AMA.bst
         - wiley-njd-v5/wileyNJD-AMS.bst
         - wiley-njd-v5/wileyNJD-APA.bst
@@ -41,4 +45,5 @@ contributes:
         - wiley-njd-v5/wileyNJD-WCMS.bst
     html:
       css: styles.css
+
 

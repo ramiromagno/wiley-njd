@@ -1,38 +1,11 @@
-\documentclass[$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode$for(hyperrefoptions)$,$hyperrefoptions$$endfor$}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-$if(colorlinks)$
-\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
-$endif$
-$if(CJKmainfont)$
-\PassOptionsToPackage{space}{xeCJK}
-$endif$
-
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-
-\articletype{$article-type$}%
-\received{$received$}
-\revised{$revised$}
-\accepted{$accepted$}
-\journal{$journal$}
-\volume{$volume$}
-\copyyear{$copy-year$}
-\startpage{1}
-\raggedbottom
+$preamble.tex()$
 
 \begin{document}
 
 $title.tex()$
 
-%%
-%% This command processes the author and affiliation and title
-%% information and builds the first part of the formatted document.
 \maketitle
 
 $body$
-
-$biblio.tex()$
 
 \end{document}
