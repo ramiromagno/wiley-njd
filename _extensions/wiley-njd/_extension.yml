@@ -28,6 +28,7 @@ contributes:
       present-address: ""
       abbreviations-note: ""
       wrap: preserve
+      fig-env: "figure*"
       template-partials:
         - "partials/preamble.tex"
         - "partials/box.tex"

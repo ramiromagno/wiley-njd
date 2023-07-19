@@ -1,21 +1,28 @@
+\newcounter{boxctr}
+\setcounter{boxctr}{0}
+
 \renewenvironment{boxtext}{%
+  \refstepcounter{boxctr}
   \fboxsep12pt
   \fboxrule2pt
   \vskip12pt
   \begin{breakbox}
   \noindent\ignorespaces
+  \label{box:\theboxctr}
 }{%
   \end{breakbox}
   \vskip12pt
 }
 
 \renewenvironment{boxwithhead}[1]{%
+  \refstepcounter{boxctr}
   \fboxsep12pt
   \fboxrule2pt
   \vskip12pt
   \begin{breakbox}
   \noindent{\fontsize{10}{13}\selectfont\bfseries{{#1}}} \vskip0pt
   \noindent\ignorespaces
+  \label{box:\theboxctr}
 }{
   \end{breakbox}
   \vskip12pt

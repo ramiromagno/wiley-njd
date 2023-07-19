@@ -45,7 +45,7 @@ Cite = function(el)
     local cites = el.citations:map(function(cite)
       return cite.id
     end)
-    local citesStr = "\\cite{" .. table.concat(cites, ", ") .. "}"
+    local citesStr = "\\cite{" .. table.concat(cites, ",") .. "}"
     return pandoc.RawInline("latex", citesStr)
   end
 end
