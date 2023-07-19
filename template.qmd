@@ -92,7 +92,7 @@ vehicula libero dui cursus dui. Mauris tempor ligula sed lacus. Duis cursus enim
 Cras ac magna. Cras nulla. Nulla egestas. Curabitur a leo. Quisque egestas wisi eget nunc.
 Nam feugiat lacus vel est. Curabitur consectetuer.
 
-![This is the sample figure caption.](empty){#fig-fig1 fig-pos="t" height="9pc"}
+![This is the sample figure caption.](empty){#fig-fig1 fig-env="figure*" fig-pos="t" height="9pc"}
 
 Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae,
 arcu. Aenean faucibus pede eu ante. Praesent enim elit, rutrum at, molestie non, nonummy
@@ -117,7 +117,7 @@ ultricies tellus. Proin et quam. Class aptent taciti sociosqu ad litora torquent
 conubia nostra, per inceptos hymenaeos. Praesent sapien turpis, fermentum vel, eleifend
 faucibus, vehicula eu, lacus.
 
-![This is the sample figure caption.](empty){#fig-fig2 fig-pos="t" width="342pt"
+![This is the sample figure caption.](empty){#fig-fig2 fig-env="figure*" fig-pos="t" width="342pt"
 height="9pc"}
 
 ## Second level head
