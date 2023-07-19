@@ -12,15 +12,13 @@ $if(title)$
 $endif$
 
 $for(by-affiliation)$
-\address[$it.number$]{\orgdiv{$if(it.department)$$it.department$$endif$},\orgname{$if(it.name)$$it.name$$endif$},\orgaddress{\state{$if(it.city)$$it.city$$endif$},\country{$if(it.country)$$it.country$$endif$}}}
+\address[$it.number$]{\orgdiv{$if(it.department)$$it.department$$endif$}, \orgname{$if(it.name)$$it.name$$endif$},\orgaddress{\state{$if(it.city)$$it.city$$endif$},\country{$if(it.country)$$it.country$$endif$}}}
 
 $endfor$
-
 $-- Corresponding author
 $for(by-author)$
 $if(by-author.attributes.corresponding)$\corres{Corresponding author $by-author.name.literal$. \email{$by-author.email$}}$endif$
 $endfor$
-
 $if(present-address)$
 \presentaddress{$present-address$}
 $endif$
