@@ -1,7 +1,6 @@
 $if(title)$
 \title{$title$}
 $endif$
-\date{$date$}
 
 $for(by-author)$
 \author[$for(by-author.affiliations)$$it.number$$sep$,$endfor$]{$by-author.name.literal$}
@@ -13,14 +12,8 @@ $if(title)$
 $endif$
 
 $for(by-affiliation)$
-\address[$it.number$]{
-  \orgdiv{$if(it.department)$$it.department$$endif$},
-  \orgname{$if(it.name)$$it.name$$endif$},
-  \orgaddress{
-    \state{$if(it.city)$$it.city$$endif$},
-    \country{$if(it.country)$$it.country$$endif$}
-    }
-  }
+\address[$it.number$]{\orgdiv{$if(it.department)$$it.department$$endif$},\orgname{$if(it.name)$$it.name$$endif$},\orgaddress{\state{$if(it.city)$$it.city$$endif$},\country{$if(it.country)$$it.country$$endif$}}}
+
 $endfor$
 
 $-- Corresponding author
@@ -32,14 +25,15 @@ $if(present-address)$
 \presentaddress{$present-address$}
 $endif$
 
+%\fundingInfo{Text}
+%\JELinfo{ejlje}
+
 $-- Abstract
 \abstract[Abstract]{$abstract$}
 
 $-- Keywords
 $if(keywords)$
-\keywords{
-  $for(keywords)$$it$$sep$, $endfor$
-}
+\keywords{$for(keywords)$$it$$sep$, $endfor$}
 $endif$
 
 $-- JNL citation
@@ -47,9 +41,12 @@ $-- JNL citation
 $for(by-author)$\author{$by-author.name.literal$}$sep$, $endfor$}.
 \ctitle{$title$.} \cjournal{\it $journal$} \cvol{$year$;$volume$($issue$):$pages$}.}
 
+\maketitle
+
 $if(abbreviations-note)$
 \renewcommand\thefootnote{}
 \footnotetext{\textbf{Abbreviations:} $abbreviations-note$}
+
 \renewcommand\thefootnote{\fnsymbol{footnote}}
 \setcounter{footnote}{1}
 $endif$
