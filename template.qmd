@@ -64,16 +64,13 @@ Duis eget orci sit amet orci dignissim rutrum.
 
 # Another first level head {#sec2}
 
-Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt
-tristique, libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante.
-Phasellus adipiscing semper elit. Proin fermentum massa ac quam. Sed diam turpis, molestie
-vitae, placerat a, molestie nec, leo [@Liska2010]. Maecenas lacinia. Nam ipsum ligula,
-eleifend at, accumsan nec, suscipit a, ipsum. Morbi blandit ligula feugiat magna. Nunc
-eleifend consequat lorem. Sed lacinia nulla vitae enim. Pellentesque tincidunt purus vel
-magna. Integer non enim. Praesent euismod nunc eu purus. Donec bibendum quam in tellus.
-Nullam cursus pulvinar lectus. Donec et mi. Nam vulputate metus eu enim. Vestibulum
-pellentesque felis eu massa. Example for bibliography citation [@Taylor1937], text
-[@Knupp1999; @Kamm2000] inserted in text for your reference.
+Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra
+fermentum felis. Donec nonummy pellentesque ante. Phasellus adipiscing semper elit. Proin fermentum massa ac
+quam. Sed diam turpis, molestie vitae, placerat a, molestie nec, leo [@Liska2010]. Maecenas lacinia. Nam ipsum ligula, eleifend
+at, accumsan nec, suscipit a, ipsum. Morbi blandit ligula feugiat magna. Nunc eleifend consequat lorem. Sed lacinia
+nulla vitae enim. Pellentesque tincidunt purus vel magna. Integer non enim. Praesent euismod nunc eu purus. Donec
+bibendum quam in tellus. Nullam cursus pulvinar lectus. Donec et mi. Nam vulputate metus eu enim. Vestibulum
+pellentesque felis eu massa. Example for bibliography citation [@Taylor1937], text [@Knupp1999; @Kamm2000] inserted in text for your reference.
 
 Quisque ullamcorper placerat ipsum. Cras nibh [@Kucharik2003; @Blanchard2015]. Morbi vel
 justo vitae lacus tincidunt ultrices. Lorem ipsum dolor sit amet, consectetuer adipiscing

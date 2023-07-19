@@ -27,6 +27,7 @@ contributes:
       copy-year: 2023
       present-address: ""
       abbreviations-note: ""
+      wrap: preserve
       template-partials:
         - "partials/preamble.tex"
         - "partials/box.tex"
