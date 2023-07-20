@@ -45,9 +45,6 @@ abstract: |
 keywords: [keyword1, keyword2, keyword3, keyword4]
 abbreviations-note: "ANA, anti-nuclear antibodies; APC, antigen-presenting cells; IRF, interferon regulatory factor."
 bibliography: wileyNJD-AMA
-filters:
-   - latex-environment
-environments: [boxwithhead, boxtext]
 ---
 
 # First level head {#sec1}

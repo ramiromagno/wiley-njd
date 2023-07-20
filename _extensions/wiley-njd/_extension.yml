@@ -48,5 +48,7 @@ contributes:
         - wiley-njd-v5/wileyNJD-MPS.bst
         - wiley-njd-v5/wileyNJD-Vancouver.bst
         - wiley-njd-v5/wileyNJD-WCMS.bst
-
+filters:
+   - latex-environment
+environments: [boxwithhead, boxtext]
 
