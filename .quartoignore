@@ -1,2 +1,3 @@
 README.*
 *.Rproj
+^LICENSE\.md$
