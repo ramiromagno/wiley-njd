@@ -8,7 +8,6 @@ format:
     classoption: [AMA, Times1COL]
     journal: "Journal"
     author-mark: "TAYLOR \\textsc{et al.}"
-  wiley-njd-html: default
 author:
   - name: Mark Taylor
     corresponding: true
