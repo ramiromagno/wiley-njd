@@ -102,8 +102,7 @@ Donec pellentesque, erat ac sagittis semper, nunc dui lobortis purus, quis congu
 et quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent sapien
 turpis, fermentum vel, eleifend faucibus, vehicula eu, lacus.
 
-![This is the sample figure caption.](empty){#fig-fig2 width="342pt"
-height="9pc"}
+![This is the sample figure caption.](empty){#fig-fig2 width="342pt" height="9pc"}
 
 ## Second level head
 
