@@ -2,7 +2,7 @@
 # Wiley’s New Journal Design (NJD) <img src="gfx/quarto.svg" align="right" height=80/>
 
 [![](https://img.shields.io/badge/quarto%20extension-journal%20format-75aadb.png)](https://quarto.org/docs/journals/formats.html)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8172098.svg)](https://doi.org/10.5281/zenodo.8172098)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8173232.svg)](https://doi.org/10.5281/zenodo.8173232)
 
 This Quarto format will help you create documents for journals published
 by Wiley. For more about producing LaTeX output for Wiley journals, see
