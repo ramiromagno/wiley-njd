@@ -23,3 +23,37 @@ You may also use this format with an existing Quarto project or document. From t
 
 `quarto add ramiromagno/wiley-njd`
 
+## Customizing for your Wiley journal
+
+The `classoption` can be set by picking a reference/bibliography style, and a
+font and column layout. Consult the [journals.md](journals.md) for your specific
+choice. For example, for _Ecology and Evolution_, you would choose `APA` for the
+bibliography style and `LATO2COL` for Lato font on a two-column layout:
+
+```yml
+format:
+  wiley-njd-pdf:
+    classoption: [APA, LATO2COL]
+```
+
+These are the codes for the different bibliographic styles:
+
+| Bibliography style                                       | Code      |
+| -------------------------------------------------------- | --------- |
+| American Psychological Association (APA) Reference Style | APA       |
+| American Medical Association (AMA) Reference Style       | AMA       |
+| Harvard Reference Style                                  | HARVARD   |
+| Chicago Reference Style                                  | CHICAGO   |
+| Vancouver Reference Style                                | VANCOUVER |
+| Chemistry - Materials Sciences Reference Style           | WCMS      |
+| Math and Physical Sciences Reference Style               | MPS       |
+| American Mathematical Society (AMS) Reference Style      | AMS       |
+| Modern Language Association (MLA) Reference Style        | MLA       |
+| American Physical Society (APS) reference style          | APS       |
+
+And these are the available fonts to choose, combine it with `1COL` or `2COL`,
+for a one column or two column layout, respectively.
+
+Arial (`Arial`), Garamond (`Garamond`), Helvetica (`Helvetica`), Lato (`LATO`),
+Minion Pro (`Minion`), Myriad Pro (`Myriad`), NewcenturySchoolBk (default), Stix
+(`STIX`), Times (`Times`), Univers (`Univers`) and Utopia (`Utopia`).
