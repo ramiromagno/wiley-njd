@@ -1,5 +1,5 @@
 
-# Wiley’s New Journal Design (NJD) <img src="gfx/quarto.svg" align="right" height=100/>
+# Wiley’s New Journal Design (NJD) <img src="gfx/quarto.svg" align="right" height=80/>
 
 [![](https://img.shields.io/badge/quarto%20extension-journal%20format-75aadb.png)](https://quarto.org/docs/journals/formats.html)
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -55,10 +55,19 @@ These are the codes for the different bibliographic styles:
 | Modern Language Association (MLA) Reference Style        | MLA       |
 | American Physical Society (APS) reference style          | APS       |
 
-And these are the available fonts to choose, combine it with `1COL` or
-`2COL`, for a one column or two column layout, respectively.
+And these are the available fonts to choose from:
 
-Arial (`Arial`), Garamond (`Garamond`), Helvetica (`Helvetica`), Lato
-(`LATO`), Minion Pro (`Minion`), Myriad Pro (`Myriad`),
-NewcenturySchoolBk (default), Stix (`STIX`), Times (`Times`), Univers
-(`Univers`) and Utopia (`Utopia`).
+- Arial (`Arial`)
+- Garamond (`Garamond`)
+- Helvetica (`Helvetica`)
+- Lato (`LATO`)
+- Minion Pro (`Minion`)
+- Myriad Pro (`Myriad`)
+- NewcenturySchoolBk (default)
+- Stix (`STIX`)
+- Times (`Times`)
+- Univers (`Univers`)
+- Utopia (`Utopia`)
+
+Combine the font code with `1COL` or `2COL`, for a one column or two
+column layout, respectively.
