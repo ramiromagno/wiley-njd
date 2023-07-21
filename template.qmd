@@ -43,7 +43,7 @@ abstract: |
   text with your abstract. This is sample abstract text just for the template display purpose.
 keywords: [keyword1, keyword2, keyword3, keyword4]
 abbreviations-note: "ANA, anti-nuclear antibodies; APC, antigen-presenting cells; IRF, interferon regulatory factor."
-bibliography: wileyNJD-AMA
+bibliography: bibliography.bib
 ---
 
 # First level head {#sec1}
@@ -656,7 +656,7 @@ None reported.
 
 The authors declare no potential conflict of interests
 
-\bibliography{wileyNJD-AMA.bib}
+\bibliography{ {{< meta bibliography >}} }
 
 # Supporting information {.bm .unnumbered}
 
