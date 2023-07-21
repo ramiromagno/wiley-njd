@@ -1,4 +1,4 @@
 README.*
 *.Rproj
-^LICENSE\.md$
-^journals.md$
+LICENSE.md
+journals.md
