@@ -28,7 +28,6 @@ contributes:
       abbreviations-note: ""
       wrap: preserve
       fig-env: "figure*"
-      abstract-bg-color: white
       template-partials:
         - "partials/preamble.tex"
         - "partials/box.tex"
