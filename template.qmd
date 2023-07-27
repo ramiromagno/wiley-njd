@@ -8,6 +8,7 @@ format:
     classoption: [AMA, Times1COL]
     journal: "Journal"
     author-mark: "TAYLOR \\textsc{et al.}"
+    abstract-bg-color: white
 author:
   - name: Mark Taylor
     corresponding: true

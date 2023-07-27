@@ -1,0 +1,16 @@
+% Article Abstract with background color using colorbox
+\makeatletter
+\renewcommand\abstract[2][]{\global\Abstractexisttrue%
+  \gdef\@abstract{%
+    \setlength{\parindent}{0pt}%
+    \vspace*{0.5\p@}%
+    \colorbox{$abstract-bg-color$}{%
+      \parbox{\dimexpr\textwidth-2\fboxsep}{%
+        \rightskip0pt\raggedright\hspace*{0\p@}\hbox{\reset@font\abstractfont{\absheadfont#1}}\par\vskip3pt%
+        {\abstractfont\baselineskip12pt\ifFWabstract\hsize\textwidth\fi\leftskip-0pt\noindent#2\par\vspace*{0\p@}}%
+      }%
+    }%
+    \addcontentsline{toc}{section}{\abstractname}%
+}}
+\makeatother
+%\abstract{}%
