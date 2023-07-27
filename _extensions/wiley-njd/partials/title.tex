@@ -27,11 +27,18 @@ $for(by-affiliation)$
     }%
   }%
 }
-
 $endfor$
-$-- Corresponding author
+
+$-- Correspondence
 $for(by-author)$
-$if(by-author.attributes.corresponding)$\corres{Corresponding author $by-author.name.literal$. \email{$by-author.email$}}$endif$
+$if(by-author.attributes.corresponding)$
+\corres{
+$if(corres-line)$
+$corres-line$
+$else$
+$by-author.name.literal$
+$endif$
+\email{$by-author.email$}}$endif$
 $endfor$
 $if(present-address)$
 \presentaddress{$present-address$}
