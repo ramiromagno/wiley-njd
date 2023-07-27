@@ -10,7 +10,6 @@ contributes:
         - wiley-njd.lua
     pdf:
       documentclass: WileyNJDv5
-      classoption: [AMA, Times1COL]
       template: wiley-njd-template.tex
       cite-method: natbib
       article-type: ""
