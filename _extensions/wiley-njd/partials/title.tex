@@ -12,7 +12,21 @@ $if(title)$
 $endif$
 
 $for(by-affiliation)$
-\address[$it.number$]{\orgdiv{$if(it.department)$$it.department$$endif$}, \orgname{$if(it.name)$$it.name$$endif$},\orgaddress{\state{$if(it.city)$$it.city$$endif$},\country{$if(it.country)$$it.country$$endif$}}}
+\address[$it.number$]{%
+  \orgdiv{%
+    $if(it.department)$$it.department$$endif$%
+    $if(it.department)$, $endif$%
+    \orgname{%
+      $if(it.name)$$it.name$$endif$%
+      $if(it.name)$, $endif$%
+    }%
+    \orgaddress{%
+      \state{$if(it.city)$$it.city$$endif$}%
+      $if(it.city)$, $endif$%
+      \country{$if(it.country)$$it.country$$endif$}%
+    }%
+  }%
+}
 
 $endfor$
 $-- Corresponding author
