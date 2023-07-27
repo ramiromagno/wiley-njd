@@ -28,8 +28,14 @@ contributes:
       abbreviations-note: ""
       wrap: preserve
       fig-env: "figure*"
+      colorlinks: true
+      linkcolor: blue
+      citecolor: blue
+      filecolor: black
+      urlcolor: black
       template-partials:
         - "partials/preamble.tex"
+        - "partials/hyperref.tex"
         - "partials/box.tex"
         - "partials/abstract.tex"
         - "partials/title.tex"
