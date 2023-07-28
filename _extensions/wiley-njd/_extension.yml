@@ -36,6 +36,7 @@ contributes:
       template-partials:
         - "partials/preamble.tex"
         - "partials/hyperref.tex"
+        - "partials/natbib.tex"
         - "partials/box.tex"
         - "partials/abstract.tex"
         - "partials/title.tex"
