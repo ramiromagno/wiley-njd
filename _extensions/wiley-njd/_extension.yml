@@ -35,6 +35,7 @@ contributes:
       urlcolor: black
       template-partials:
         - "partials/preamble.tex"
+        - "partials/pandoc.tex"
         - "partials/hyperref.tex"
         - "partials/natbib.tex"
         - "partials/box.tex"
