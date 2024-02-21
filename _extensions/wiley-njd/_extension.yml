@@ -39,7 +39,6 @@ contributes:
         - "partials/hyperref.tex"
         - "partials/natbib.tex"
         - "partials/box.tex"
-        - "partials/abstract.tex"
         - "partials/title.tex"
       format-resources:
         - wiley-njd-v5/WileyNJDv5.cls
